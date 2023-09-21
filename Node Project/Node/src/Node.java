@@ -1,5 +1,8 @@
-public class Node {
-    public static void main(String[] args) {
-        
+public class Node <T>{
+    private T t;
+
+    public void set(T t) { this.t = t; }
+    public T get() { return t; }
+
     }
-}
+        
